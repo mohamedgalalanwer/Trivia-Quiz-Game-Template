@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1452720320876058}
+  m_IsPrefabAsset: 1
+--- !u!1 &1452720320876058
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4458222455587642}
+  - component: {fileID: 114250770642559286}
+  - component: {fileID: 114245828438872358}
+  m_Layer: 0
+  m_Name: Controller Word Q
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &4458222455587642
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1452720320876058}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 550, y: 440, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114245828438872358
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1452720320876058}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3724f23a8400d541b6e3b8d1c2b02c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ASource1: {fileID: 0}
+  ASource2: {fileID: 0}
+  SoundOn: {fileID: 21300000, guid: 12af939d80a05d64d98fee55b380558d, type: 3}
+  SoundOff: {fileID: 21300000, guid: 7484da012d76a084e83aab70eb4cb6e6, type: 3}
+  SoundButton: {fileID: 0}
+--- !u!114 &114250770642559286
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1452720320876058}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30d393afc73011c4280d779635cc4b3d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Questions:
+  - Question: "\u0628\u0627\u0631\u064A\u0633"
+    Answer: paris
+    Image: {fileID: 21300000, guid: a65cbe15f94179c40857c574c29ba284, type: 3}
+    IsArabicLitters: 0
+  - Question: sleep
+    Answer: "\u064A\u0646\u0627\u0645"
+    Image: {fileID: 21300000, guid: d0f8fb2be7796d745a8a0b794e50b43d, type: 3}
+    IsArabicLitters: 1
+  - Question: "\u064A\u0630\u0627\u0643\u0631"
+    Answer: study
+    Image: {fileID: 21300000, guid: 73388e8e949ac28489efe3927679c66f, type: 3}
+    IsArabicLitters: 0
+  PrefabWordParent: {fileID: 1275850521362522, guid: cb4a10c072c908a418bc1b041d320733,
+    type: 2}
+  TextQuestion: {fileID: 0}
+  TextPicture: {fileID: 0}
+  PanelQ: {fileID: 0}
+  PanelA: {fileID: 0}
+  ButtonAnswer: {fileID: 0}
+  HeaderPanel: {fileID: 0}
+  TextHeaderPanel: {fileID: 0}
+  CorrectAnswer: {fileID: 0}
+  Score: 0
+  StarParent: {fileID: 0}
+  EmptyStar: {fileID: 21300000, guid: 05afd3c3bfbc0784583cf66ab878d3a5, type: 3}
+  FullStar: {fileID: 21300000, guid: 934b022f9e01d3146b2930f3718b6d48, type: 3}
+  TimerText: {fileID: 0}
+  CurrentCanvas: {fileID: 0}
+  ScoreCanvas: {fileID: 0}
+  IsMainController: 1
+  SpeakBTN: {fileID: 0}

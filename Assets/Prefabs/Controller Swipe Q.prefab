@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1267218586538356}
+  m_IsPrefabAsset: 1
+--- !u!1 &1267218586538356
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4793601035180632}
+  - component: {fileID: 114159241813647800}
+  - component: {fileID: 114763110332030310}
+  m_Layer: 0
+  m_Name: Controller Swipe Q
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &4793601035180632
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1267218586538356}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 167.25563, y: 283.81937, z: 313.15945}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114159241813647800
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1267218586538356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b12e362e7dd9ce489096a5478ce8483, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Questions:
+  - QuestionWord: "\u064A\u0644\u0639\u0628"
+    Answer1: Play
+    Answer2: Study
+    CorrectAnswer: 0
+    Answer1Img: {fileID: 21300000, guid: c4b8d6a744fda384585cefae1ab58d41, type: 3}
+    Answer2Img: {fileID: 21300000, guid: 73388e8e949ac28489efe3927679c66f, type: 3}
+    isArabicAnswer: 0
+  - QuestionWord: "\u064A\u0646\u0627\u0645"
+    Answer1: Run
+    Answer2: Sleep
+    CorrectAnswer: 1
+    Answer1Img: {fileID: 21300000, guid: 7e2bdf38ca967494fb62b20e568f40c1, type: 3}
+    Answer2Img: {fileID: 21300000, guid: d0f8fb2be7796d745a8a0b794e50b43d, type: 3}
+    isArabicAnswer: 0
+  - QuestionWord: "\u064A\u0633\u0627\u0641\u0631"
+    Answer1: Paris
+    Answer2: Travel
+    CorrectAnswer: 1
+    Answer1Img: {fileID: 21300000, guid: a65cbe15f94179c40857c574c29ba284, type: 3}
+    Answer2Img: {fileID: 21300000, guid: c13cba12e8291f94497e53d8eaaa3c58, type: 3}
+    isArabicAnswer: 0
+  TextWord: {fileID: 0}
+  TextAnswer1: {fileID: 0}
+  TextAnswer2: {fileID: 0}
+  ImageAnswer1: {fileID: 0}
+  ImageAnswer2: {fileID: 0}
+  SwipeThreshold: 150
+  Score: 0
+  TimeBetweenQuestions: 1.5
+  StarParent: {fileID: 0}
+  EmptyStar: {fileID: 21300000, guid: 05afd3c3bfbc0784583cf66ab878d3a5, type: 3}
+  FullStar: {fileID: 21300000, guid: 934b022f9e01d3146b2930f3718b6d48, type: 3}
+  TimerText: {fileID: 0}
+  CurrentCanvas: {fileID: 0}
+  ScoreCanvas: {fileID: 0}
+  IsMainController: 1
+  SpeakBTN: {fileID: 0}
+--- !u!114 &114763110332030310
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1267218586538356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3724f23a8400d541b6e3b8d1c2b02c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ASource1: {fileID: 0}
+  ASource2: {fileID: 0}
+  SoundOn: {fileID: 21300000, guid: 12af939d80a05d64d98fee55b380558d, type: 3}
+  SoundOff: {fileID: 21300000, guid: 7484da012d76a084e83aab70eb4cb6e6, type: 3}
+  SoundButton: {fileID: 0}

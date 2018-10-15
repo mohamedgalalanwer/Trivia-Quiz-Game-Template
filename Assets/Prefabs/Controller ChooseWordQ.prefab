@@ -1,0 +1,120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1445337285217328}
+  m_IsPrefabAsset: 1
+--- !u!1 &1445337285217328
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4481218867962790}
+  - component: {fileID: 114038489456588742}
+  - component: {fileID: 114457539442216984}
+  m_Layer: 0
+  m_Name: Controller ChooseWordQ
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &4481218867962790
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1445337285217328}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 40.000916, y: 822.0504, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114038489456588742
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1445337285217328}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea73090b51db83c44bd77a45e4578036, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Questions:
+  - QuestIsArabic: 1
+    Question: "\u0623\u0646\u0627 \u0623\u0632\u0648\u0631 \u0628\u0627\u0631\u064A\u0633
+      \u0643\u062B\u064A\u0631\u0627"
+    AnsFirstPart: I Visit
+    AnsSecondPart: Often
+    HiddenWord: Paris
+    AllPossibleWords:
+    - Paris
+    - Down
+    - He
+    - Play
+    - Italy
+  - QuestIsArabic: 0
+    Question: The Boy Is Playing Football
+    AnsFirstPart: "\u0627\u0644\u0648\u0644\u062F"
+    AnsSecondPart: "\u0643\u0631\u0629 \u0627\u0644\u0642\u062F\u0645"
+    HiddenWord: "\u064A\u0644\u0639\u0628"
+    AllPossibleWords:
+    - "\u064A\u062C\u0631\u064A"
+    - "\u0645\u0631\u062D\u0628\u0627"
+    - "\u0644\u0627 \u0634\u064A\u0621"
+    - "\u064A\u0644\u0639\u0628"
+    - "\u064A\u0639\u062F"
+    - "\u0647\u0648"
+    - "\u062B\u0627\u0646\u064A\u0627"
+  PrefabTextParent: {fileID: 1422042090736370, guid: dd07e26d90e9e4d4a8a2a56a8d7198f5,
+    type: 2}
+  PrefabTempText: {fileID: 1053220405312704, guid: 40507ecbf58cd6f41a2230d0c8a8bcc5,
+    type: 2}
+  PrefabWordPart: {fileID: 1136787201057030, guid: 56ad376eaff81694fb693a1c25e082ea,
+    type: 2}
+  PanelWrongAnswer: {fileID: 0}
+  PanelWrite1: {fileID: 0}
+  PanelWrite2: {fileID: 0}
+  PanelAnswers: {fileID: 0}
+  PanelHolder: {fileID: 0}
+  TextQuestion: {fileID: 0}
+  ButtonAnswer: {fileID: 0}
+  HeaderPanel: {fileID: 0}
+  TextHeaderPanel: {fileID: 0}
+  Score: 0
+  StarParent: {fileID: 0}
+  EmptyStar: {fileID: 21300000, guid: 05afd3c3bfbc0784583cf66ab878d3a5, type: 3}
+  FullStar: {fileID: 21300000, guid: 934b022f9e01d3146b2930f3718b6d48, type: 3}
+  TimerText: {fileID: 0}
+  CurrentCanvas: {fileID: 0}
+  ScoreCanvas: {fileID: 0}
+  IsMainController: 1
+  SpeakBTN: {fileID: 0}
+--- !u!114 &114457539442216984
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1445337285217328}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3724f23a8400d541b6e3b8d1c2b02c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ASource1: {fileID: 0}
+  ASource2: {fileID: 0}
+  SoundOn: {fileID: 21300000, guid: 12af939d80a05d64d98fee55b380558d, type: 3}
+  SoundOff: {fileID: 21300000, guid: 7484da012d76a084e83aab70eb4cb6e6, type: 3}
+  SoundButton: {fileID: 0}
